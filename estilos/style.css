@@ -4,3 +4,42 @@
     --cor1: #5f2c82;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-padrao);
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: var(--cor1);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.702);
+}
+section#login > div#imagen{
+    background: var(--cor1) url(../imagens/pexels-alex-quezada-15886898.jpg);
+    height: 200px;
+    display: block;
+}
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
