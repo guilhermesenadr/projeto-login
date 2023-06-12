@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) and (max-width 992px) {
+	section#login{
+	Width: 90% vw;
+}
+	section#login > div#imagen{
+	Float: left;
+	Width: 30%;
+    Height: 100vh;
+}
+	section#login div#formulario{
+	Float: right;
+	Width: 70%;
+    Height: 100vh;
+
+}
+
+}
