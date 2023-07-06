@@ -6,6 +6,7 @@
 	}
 	section#login{
 	Width: 80vw;
+	height: 280px;
 }
 	section#login > div#imagen{
 	Float: left;
@@ -27,6 +28,7 @@
 	}
 	section#login {
 		width: 950px;
+		height: 350px;
 	}
 	section#login > div#imagen{
 		float: right;
